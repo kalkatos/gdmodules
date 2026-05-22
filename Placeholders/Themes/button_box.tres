@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cjsvvxe02sh4w" path="res://Modules/Placeholders/Sprites/UI/button.png" id="1_3iwwh"]
 
+
 [resource]
 texture = ExtResource("1_3iwwh")
 texture_margin_left = 10.0

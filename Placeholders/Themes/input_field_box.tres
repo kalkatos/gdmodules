@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cigbml224povc" path="res://Modules/Placeholders/Sprites/UI/depression.png" id="1_oib4b"]
 
+
 [resource]
 texture = ExtResource("1_oib4b")
 texture_margin_left = 10.0

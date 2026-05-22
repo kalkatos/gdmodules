@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://c6ro3sb7v5whh" path="res://Modules/Placeholders/Sprites/UI/square_border.png" id="1_khs0g"]
 
+
 [resource]
 texture = ExtResource("1_khs0g")
 texture_margin_left = 10.0

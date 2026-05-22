@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://b7ywyxsie0ma6" path="res://Modules/Placeholders/Sprites/UI/panel.png" id="1_3iwwh"]
 
+
 [resource]
 content_margin_left = 10.0
 content_margin_top = 10.0

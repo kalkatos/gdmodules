@@ -2,5 +2,6 @@
 
 [ext_resource type="Texture2D" uid="uid://bbiahdsg4k31c" path="res://Modules/Placeholders/Sprites/UI/handle.png" id="1_jeier"]
 
+
 [resource]
 texture = ExtResource("1_jeier")
