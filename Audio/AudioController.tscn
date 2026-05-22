@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dtic0iflpvadp"]
+
+[ext_resource type="Script" uid="uid://bm0ivuuqk8nd3" path="res://Modules/Audio/audio_controller.gd" id="1_unv7j"]
+
+[node name="AudioController" type="AudioListener2D" unique_id=526378694 node_paths=PackedStringArray("music_channel", "sfx_channel_1", "sfx_channel_2", "sfx_channel_3")]
+current = true
+script = ExtResource("1_unv7j")
+music_channel = NodePath("MusicChannel")
+sfx_channel_1 = NodePath("SfxChannel_1")
+sfx_channel_2 = NodePath("SfxChannel_2")
+sfx_channel_3 = NodePath("SfxChannel_3")
+
+[node name="MusicChannel" type="AudioStreamPlayer2D" parent="." unique_id=937535808]
+volume_db = -80.0
+
+[node name="SfxChannel_1" type="AudioStreamPlayer2D" parent="." unique_id=1924011360]
+bus = &"Sfx"
+
+[node name="SfxChannel_2" type="AudioStreamPlayer2D" parent="." unique_id=760567910]
+bus = &"Sfx"
+
+[node name="SfxChannel_3" type="AudioStreamPlayer2D" parent="." unique_id=1075843585]
+bus = &"Sfx"

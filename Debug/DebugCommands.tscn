@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://bahar2cinahxn"]
+
+[ext_resource type="Script" uid="uid://dyig4ccf7pbcb" path="res://Modules/Debug/debug_commands.gd" id="1_emqrf"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1712498804 node_paths=PackedStringArray("debug_text", "input_text")]
+layer = 128
+script = ExtResource("1_emqrf")
+debug_text = NodePath("VBoxContainer/ColorRect/MarginContainer/RichTextLabel")
+input_text = NodePath("VBoxContainer/LineEdit")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1181481909]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer" unique_id=1128923062]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_force_pass_scroll_events = false
+color = Color(0, 0, 0, 0.27451)
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/ColorRect" unique_id=1206023699]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer/ColorRect/MarginContainer" unique_id=1628661408]
+layout_mode = 2
+mouse_force_pass_scroll_events = false
+bbcode_enabled = true
+text = "--- Debug Text ---"
+scroll_following = true
+vertical_alignment = 2
+
+[node name="LineEdit" type="LineEdit" parent="VBoxContainer" unique_id=1456085860]
+layout_mode = 2
+mouse_force_pass_scroll_events = false
+placeholder_text = "Enter command"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer" unique_id=688936509]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/VBoxContainer" unique_id=382528248]
+layout_mode = 2
+
+[node name="Time_01" type="Button" parent="VBoxContainer/VBoxContainer/HBoxContainer" unique_id=262542044]
+layout_mode = 2
+text = "Time 0.1"
+
+[node name="Time_1" type="Button" parent="VBoxContainer/VBoxContainer/HBoxContainer" unique_id=707736358]
+layout_mode = 2
+text = "Time 1.0"
+
+[connection signal="pressed" from="VBoxContainer/VBoxContainer/HBoxContainer/Time_01" to="." method="call_command" binds= ["time 0.1"]]
+[connection signal="pressed" from="VBoxContainer/VBoxContainer/HBoxContainer/Time_1" to="." method="call_command" binds= ["time 1"]]

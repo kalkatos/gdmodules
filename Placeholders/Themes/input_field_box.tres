@@ -1,0 +1,10 @@
+[gd_resource type="StyleBoxTexture" format=3 uid="uid://bnsvi76n3m0ig"]
+
+[ext_resource type="Texture2D" uid="uid://cigbml224povc" path="res://Modules/Placeholders/Sprites/UI/depression.png" id="1_oib4b"]
+
+[resource]
+texture = ExtResource("1_oib4b")
+texture_margin_left = 10.0
+texture_margin_top = 15.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
