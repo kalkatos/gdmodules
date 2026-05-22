@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" uid="uid://dyig4ccf7pbcb" path="res://Modules/Debug/debug_commands.gd" id="1_emqrf"]
 
-
 [node name="CanvasLayer" type="CanvasLayer" unique_id=1712498804 node_paths=PackedStringArray("debug_text", "input_text")]
 layer = 128
+visible = false
 script = ExtResource("1_emqrf")
 debug_text = NodePath("VBoxContainer/ColorRect/MarginContainer/RichTextLabel")
 input_text = NodePath("VBoxContainer/LineEdit")

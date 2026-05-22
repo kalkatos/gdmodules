@@ -4,15 +4,14 @@
 [ext_resource type="PackedScene" uid="uid://bplrqic4vdj56" path="res://Modules/SceneController/Samples/ButtonSceneLoader.tscn" id="2_35a6r"]
 [ext_resource type="PackedScene" uid="uid://xm3e2txawpy7" path="res://addons/genki-flying-text/Samples/DamageNumberTester.tscn" id="3_dnehv"]
 
+[node name="Test" type="Node" unique_id=623687435]
 
-[node name="Test" type="Node"]
+[node name="BaseCanvas" parent="." unique_id=549730283 instance=ExtResource("1_4jma3")]
 
-[node name="BaseCanvas" parent="." instance=ExtResource("1_4jma3")]
-
-[node name="Label" parent="BaseCanvas" index="1"]
+[node name="Label" parent="BaseCanvas" index="1" unique_id=2112699183]
 text = "Test Scene"
 
-[node name="Button_SceneLoader" parent="BaseCanvas" instance=ExtResource("2_35a6r")]
+[node name="Button_SceneLoader" parent="BaseCanvas" unique_id=1846096672 instance=ExtResource("2_35a6r")]
 offset_left = -187.0
 offset_top = -22.0
 offset_right = -87.0
@@ -20,6 +19,6 @@ offset_bottom = 18.0
 text = "To: Main"
 scene = "uid://cndotgxorx3id"
 
-[node name="ParticleTester" parent="." instance=ExtResource("3_dnehv")]
+[node name="ParticleTester" parent="." unique_id=592775045 instance=ExtResource("3_dnehv")]
 
 [editable path="BaseCanvas"]

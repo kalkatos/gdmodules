@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://ckcrx2v1syhnm" path="res://Modules/UI/Samples/clamped_control_tester.gd" id="1_vl0x7"]
 [ext_resource type="Script" uid="uid://c8y6n04tkecp1" path="res://Modules/Tooltip/tooltip_control.gd" id="2_mukhp"]
 
-
 [node name="ClampedControlTester" type="Control" unique_id=102557794 node_paths=PackedStringArray("control")]
 layout_mode = 3
 anchors_preset = 0

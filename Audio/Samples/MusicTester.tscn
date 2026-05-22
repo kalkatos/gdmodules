@@ -1,8 +1,7 @@
 [gd_scene format=3 uid="uid://d1wtvvf8esweu"]
 
 [ext_resource type="Script" uid="uid://brqtcgh6awxtg" path="res://Modules/Audio/audio_player.gd" id="1_05hqv"]
-[ext_resource type="AudioStream" uid="uid://bl5bvdryclglp" path="res://Modules/Audio/Samples/main_music.mp3" id="2_oyylt"]
-
+[ext_resource type="AudioStream" uid="uid://cfsloag2r5gxe" path="res://Modules/Audio/Samples/main_music.mp3" id="2_oyylt"]
 
 [node name="MusicTester" type="Node" unique_id=355937408]
 script = ExtResource("1_05hqv")
