@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpcyw2mlwue8y"
 path.s3tc="res://.godot/imported/borderless.png-80ac14db2b79f94bfddad8f3c456affb.s3tc.ctex"
+path.etc2="res://.godot/imported/borderless.png-80ac14db2b79f94bfddad8f3c456affb.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Modules/Placeholders/Sprites/UI/borderless.png"
-dest_files=["res://.godot/imported/borderless.png-80ac14db2b79f94bfddad8f3c456affb.s3tc.ctex"]
+dest_files=["res://.godot/imported/borderless.png-80ac14db2b79f94bfddad8f3c456affb.s3tc.ctex", "res://.godot/imported/borderless.png-80ac14db2b79f94bfddad8f3c456affb.etc2.ctex"]
 
 [params]
 

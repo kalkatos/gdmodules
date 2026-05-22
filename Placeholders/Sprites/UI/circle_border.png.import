@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1sjhmja0vaay"
 path.s3tc="res://.godot/imported/circle_border.png-6debb4635a1f0923e5a334d1ad94bd5c.s3tc.ctex"
+path.etc2="res://.godot/imported/circle_border.png-6debb4635a1f0923e5a334d1ad94bd5c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Modules/Placeholders/Sprites/UI/circle_border.png"
-dest_files=["res://.godot/imported/circle_border.png-6debb4635a1f0923e5a334d1ad94bd5c.s3tc.ctex"]
+dest_files=["res://.godot/imported/circle_border.png-6debb4635a1f0923e5a334d1ad94bd5c.s3tc.ctex", "res://.godot/imported/circle_border.png-6debb4635a1f0923e5a334d1ad94bd5c.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cehfsbt5in6v3"
 path.s3tc="res://.godot/imported/placeholder_tex.png-db8918b8cc7e3ab85f6375687b03d19d.s3tc.ctex"
+path.etc2="res://.godot/imported/placeholder_tex.png-db8918b8cc7e3ab85f6375687b03d19d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Modules/Placeholders/Sprites/placeholder_tex.png"
-dest_files=["res://.godot/imported/placeholder_tex.png-db8918b8cc7e3ab85f6375687b03d19d.s3tc.ctex"]
+dest_files=["res://.godot/imported/placeholder_tex.png-db8918b8cc7e3ab85f6375687b03d19d.s3tc.ctex", "res://.godot/imported/placeholder_tex.png-db8918b8cc7e3ab85f6375687b03d19d.etc2.ctex"]
 
 [params]
 
