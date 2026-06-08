@@ -5,12 +5,12 @@
 [ext_resource type="StyleBox" uid="uid://dbgrn7dsv12uu" path="res://Modules/Placeholders/Themes/hover_box.tres" id="4_j2r8h"]
 [ext_resource type="StyleBox" uid="uid://bg7imm1wp3iab" path="res://Modules/Placeholders/Themes/button_box.tres" id="4_o3564"]
 [ext_resource type="StyleBox" uid="uid://6qxijgjplhqd" path="res://Modules/Placeholders/Themes/pressed_box.tres" id="5_dbhrl"]
-[ext_resource type="Texture2D" uid="uid://ctn06vanlna1s" path="res://Modules/Placeholders/Sprites/UI/handle_small.png" id="5_weoet"]
+[ext_resource type="Texture2D" uid="uid://ckqylqy5mk1gu" path="res://Modules/Placeholders/Sprites/UI/handle_small.png" id="5_weoet"]
 [ext_resource type="StyleBox" uid="uid://bnsvi76n3m0ig" path="res://Modules/Placeholders/Themes/input_field_box.tres" id="6_j2r8h"]
-[ext_resource type="Texture2D" uid="uid://ce6l48g6mlyeh" path="res://Modules/Placeholders/Sprites/UI/handle_small_disabled.png" id="6_o3564"]
-[ext_resource type="Texture2D" uid="uid://dgojv3b3lnecc" path="res://Modules/Placeholders/Sprites/UI/handle_small_highlighted.png" id="7_8lyx0"]
+[ext_resource type="Texture2D" uid="uid://bvcgvklcncag" path="res://Modules/Placeholders/Sprites/UI/handle_small_disabled.png" id="6_o3564"]
+[ext_resource type="Texture2D" uid="uid://pcy0xkbk1377" path="res://Modules/Placeholders/Sprites/UI/handle_small_highlighted.png" id="7_8lyx0"]
 [ext_resource type="StyleBox" uid="uid://c163ejuhsfmqa" path="res://Modules/Placeholders/Themes/borderless.tres" id="7_dbhrl"]
-[ext_resource type="FontFile" uid="uid://bc1b7ynm0vqv7" path="res://Modules/Placeholders/Fonts/itim_regular.ttf" id="10_weoet"]
+[ext_resource type="FontFile" uid="uid://c88wciw0ye2n2" path="res://Modules/Placeholders/Fonts/itim_regular.ttf" id="10_weoet"]
 
 [sub_resource type="Image" id="Image_2vjot"]
 data = {
