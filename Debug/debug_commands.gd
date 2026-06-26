@@ -18,6 +18,7 @@ func _ready () -> void:
 	input_text.text_submitted.connect(_handle_text_submitted)
 	add_command("time", _set_time_scale)
 	add_command("fps", _set_fps)
+	add_command("clear", clear)
 	# Setup custom logger for intercepting print calls in non-editor builds
 	if not Engine.is_editor_hint():
 		_logger = preload("res://Modules/Debug/debug_logger.gd").new()
@@ -114,6 +115,10 @@ func call_command (text: String) -> void:
 	else:
 		push_warning("Command not found: " + text)
 	call_deferred("_grab_focus_back")
+
+
+func clear () -> void:
+	debug_text.text = ""
 
 
 ## Static convenience method to call a global debug command.
