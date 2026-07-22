@@ -1,0 +1,11 @@
+[gd_resource type="StyleBoxTexture" format=3 uid="uid://841vejo4d7a"]
+
+[ext_resource type="Texture2D" uid="uid://dwqkhr5lk585p" path="res://Game/Art/UI/square_bar.png" id="1_qu3eq"]
+
+[resource]
+texture = ExtResource("1_qu3eq")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+modulate_color = Color(0.9, 0.9, 0.9, 1)

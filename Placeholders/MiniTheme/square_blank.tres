@@ -1,0 +1,11 @@
+[gd_resource type="StyleBoxTexture" format=3 uid="uid://c5br42u431ne7"]
+
+[ext_resource type="Texture2D" uid="uid://cllehuvdd5inr" path="res://Game/Art/UI/blank_square.png" id="1_sb5g1"]
+
+[resource]
+texture = ExtResource("1_sb5g1")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+modulate_color = Color(0.9, 0.9, 0.9, 1)

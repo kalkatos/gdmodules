@@ -1,0 +1,36 @@
+[gd_resource type="Theme" format=3 uid="uid://dpx6qfbolegdh"]
+
+[ext_resource type="StyleBox" uid="uid://duduj8k1kbrg8" path="res://Game/Art/Theme/disabled_style.tres" id="1_vp4mm"]
+[ext_resource type="StyleBox" uid="uid://bv0ue6qhyb10o" path="res://Game/Art/Theme/button_style.tres" id="2_xe7fo"]
+[ext_resource type="StyleBox" uid="uid://bmefm55f8h56x" path="res://Game/Art/Theme/square_style.tres" id="3_hegmu"]
+[ext_resource type="FontFile" uid="uid://bc1b7ynm0vqv7" path="res://Modules/Placeholders/Fonts/itim_regular.ttf" id="4_o1h6t"]
+
+[resource]
+default_font = ExtResource("4_o1h6t")
+default_font_size = 16
+Button/colors/font_color = Color(0.107933, 0.107933, 0.107933, 1)
+Button/colors/font_disabled_color = Color(0.243939, 0.243938, 0.243938, 0.5)
+Button/colors/font_focus_color = Color(0.107933, 0.107933, 0.107933, 1)
+Button/colors/font_hover_color = Color(0.149171, 0.14917, 0.149171, 1)
+Button/colors/font_hover_pressed_color = Color(0.107933, 0.107933, 0.107933, 1)
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/colors/font_pressed_color = Color(0.109804, 0.109804, 0.109804, 1)
+Button/colors/icon_disabled_color = Color(0.243137, 0.243137, 0.243137, 0.501961)
+Button/colors/icon_focus_color = Color(0.109804, 0.109804, 0.109804, 1)
+Button/colors/icon_hover_color = Color(0.109804, 0.109804, 0.109804, 1)
+Button/colors/icon_hover_pressed_color = Color(0.109804, 0.109804, 0.109804, 1)
+Button/colors/icon_normal_color = Color(0.109804, 0.109804, 0.109804, 1)
+Button/colors/icon_pressed_color = Color(0.109804, 0.109804, 0.109804, 1)
+Button/styles/disabled = ExtResource("1_vp4mm")
+Button/styles/disabled_mirrored = ExtResource("1_vp4mm")
+Button/styles/focus = ExtResource("2_xe7fo")
+Button/styles/hover = ExtResource("2_xe7fo")
+Button/styles/hover_mirrored = ExtResource("2_xe7fo")
+Button/styles/hover_pressed = ExtResource("2_xe7fo")
+Button/styles/hover_pressed_mirrored = ExtResource("2_xe7fo")
+Button/styles/normal = ExtResource("2_xe7fo")
+Button/styles/normal_mirrored = ExtResource("2_xe7fo")
+Button/styles/panel = ExtResource("2_xe7fo")
+Button/styles/pressed = ExtResource("2_xe7fo")
+Button/styles/pressed_mirrored = ExtResource("2_xe7fo")
+Panel/styles/panel = ExtResource("3_hegmu")
