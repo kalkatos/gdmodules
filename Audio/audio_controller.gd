@@ -47,7 +47,8 @@ func _ready () -> void:
 
 
 ## Plays a sound effect using the next available SFX channel.
-func play_sfx (sfx: AudioStream):
+## pitch_scale can be used to vary the sound for feedback (e.g., higher for correct, lower for incorrect).
+func play_sfx (sfx: AudioStream, pitch_scale: float = 1.0):
 	while !_has_loaded_volume:
 		await get_tree().process_frame
 	if is_zero_approx(master_sfx_volume):
@@ -56,6 +57,7 @@ func play_sfx (sfx: AudioStream):
 	var player = sfx_channels[channel_index]
 	channel_index = (channel_index + 1) % sfx_channels.size()
 	player.stream = sfx
+	player.pitch_scale = pitch_scale
 	player.play(0)
 
 
