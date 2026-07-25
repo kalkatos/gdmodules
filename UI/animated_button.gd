@@ -6,6 +6,7 @@ extends BaseButton
 @export var press_scale := Vector2(0.975, 0.975)
 @export var normal_scale := Vector2(1.0, 1.0)
 @export var disabled_color := Color(0.7, 0.7, 0.7, 1.0)
+@export var normal_color := Color(1.0, 1.0, 1.0, 1.0)
 @export var highlighted_color := Color(1.15, 1.15, 1.15, 1.0)
 @export var tween_duration := 0.1
 
@@ -49,7 +50,7 @@ func _handle_mouse_exited () -> void:
 		_tween_to(normal_scale)
 	if disabled:
 		return
-	modulate = Color.WHITE
+	modulate = normal_color
 	z_index -= 1
 
 
