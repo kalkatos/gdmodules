@@ -15,6 +15,10 @@ var _logger: Logger
 
 ## Initializes the debug console, registers default commands, and sets up the custom logger.
 func _ready () -> void:
+	visible = false
+	if not (OS.is_debug_build() or Engine.is_editor_hint()):
+		disable = true
+		return
 	input_text.text_submitted.connect(_handle_text_submitted)
 	add_command("time", _set_time_scale)
 	add_command("fps", _set_fps)
@@ -24,7 +28,6 @@ func _ready () -> void:
 		_logger = preload("res://Modules/Debug/debug_logger.gd").new()
 		_logger.setup(debug_text)
 		OS.add_logger(_logger)
-	visible = false
 
 
 ## Handles keyboard shortcuts for toggling visibility, zooming, and navigating command history.

@@ -1,9 +1,6 @@
 [gd_resource type="Theme" format=3 uid="uid://dpx6qfbolegdh"]
 
-[ext_resource type="StyleBox" uid="uid://duduj8k1kbrg8" path="res://Game/Art/Theme/disabled_style.tres" id="1_vp4mm"]
-[ext_resource type="StyleBox" uid="uid://bv0ue6qhyb10o" path="res://Game/Art/Theme/button_style.tres" id="2_xe7fo"]
-[ext_resource type="StyleBox" uid="uid://bmefm55f8h56x" path="res://Game/Art/Theme/square_style.tres" id="3_hegmu"]
-[ext_resource type="FontFile" uid="uid://bc1b7ynm0vqv7" path="res://Modules/Placeholders/Fonts/itim_regular.ttf" id="4_o1h6t"]
+[ext_resource type="FontFile" uid="uid://85d3f4e5o7a8" path="res://Modules/Placeholders/Fonts/itim_regular.ttf" id="4_o1h6t"]
 
 [resource]
 default_font = ExtResource("4_o1h6t")
@@ -21,16 +18,16 @@ Button/colors/icon_hover_color = Color(0.109804, 0.109804, 0.109804, 1)
 Button/colors/icon_hover_pressed_color = Color(0.109804, 0.109804, 0.109804, 1)
 Button/colors/icon_normal_color = Color(0.109804, 0.109804, 0.109804, 1)
 Button/colors/icon_pressed_color = Color(0.109804, 0.109804, 0.109804, 1)
-Button/styles/disabled = ExtResource("1_vp4mm")
-Button/styles/disabled_mirrored = ExtResource("1_vp4mm")
-Button/styles/focus = ExtResource("2_xe7fo")
-Button/styles/hover = ExtResource("2_xe7fo")
-Button/styles/hover_mirrored = ExtResource("2_xe7fo")
-Button/styles/hover_pressed = ExtResource("2_xe7fo")
-Button/styles/hover_pressed_mirrored = ExtResource("2_xe7fo")
-Button/styles/normal = ExtResource("2_xe7fo")
-Button/styles/normal_mirrored = ExtResource("2_xe7fo")
-Button/styles/panel = ExtResource("2_xe7fo")
-Button/styles/pressed = ExtResource("2_xe7fo")
-Button/styles/pressed_mirrored = ExtResource("2_xe7fo")
-Panel/styles/panel = ExtResource("3_hegmu")
+Button/styles/disabled = null
+Button/styles/disabled_mirrored = null
+Button/styles/focus = null
+Button/styles/hover = null
+Button/styles/hover_mirrored = null
+Button/styles/hover_pressed = null
+Button/styles/hover_pressed_mirrored = null
+Button/styles/normal = null
+Button/styles/normal_mirrored = null
+Button/styles/panel = null
+Button/styles/pressed = null
+Button/styles/pressed_mirrored = null
+Panel/styles/panel = null
