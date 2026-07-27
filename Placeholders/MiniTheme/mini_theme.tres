@@ -1,9 +1,9 @@
 [gd_resource type="Theme" format=3 uid="uid://dpx6qfbolegdh"]
 
-[ext_resource type="FontFile" uid="uid://85d3f4e5o7a8" path="res://Modules/Placeholders/Fonts/itim_regular.ttf" id="4_o1h6t"]
+[ext_resource type="FontFile" uid="uid://bc1b7ynm0vqv7" path="res://Modules/Placeholders/Fonts/itim_regular.ttf" id="1_2w25f"]
 
 [resource]
-default_font = ExtResource("4_o1h6t")
+default_font = ExtResource("1_2w25f")
 default_font_size = 16
 Button/colors/font_color = Color(0.107933, 0.107933, 0.107933, 1)
 Button/colors/font_disabled_color = Color(0.243939, 0.243938, 0.243938, 0.5)
