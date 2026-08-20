@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dguxmvxcho7uk"
 path.s3tc="res://.godot/imported/panel.png-4979311594f29a7225c569cdf4a9dc4c.s3tc.ctex"
+path.etc2="res://.godot/imported/panel.png-4979311594f29a7225c569cdf4a9dc4c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Modules/Placeholders/Sprites/UI/panel.png"
-dest_files=["res://.godot/imported/panel.png-4979311594f29a7225c569cdf4a9dc4c.s3tc.ctex"]
+dest_files=["res://.godot/imported/panel.png-4979311594f29a7225c569cdf4a9dc4c.s3tc.ctex", "res://.godot/imported/panel.png-4979311594f29a7225c569cdf4a9dc4c.etc2.ctex"]
 
 [params]
 
