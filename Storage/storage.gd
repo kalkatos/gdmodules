@@ -19,6 +19,11 @@ func _enter_tree () -> void:
 		saved_dict = JSON.parse_string(serialized) as Dictionary
 
 
+## Switches the save file used by this manager (e.g. to a throwaway test file).
+func set_storage_name (storage_name: String) -> void:
+	save_name = "user://%s.data" % storage_name
+
+
 ## Saves a value associated with a key to local storage.
 func save (key: String, value: Variant):
 	saved_dict[key] = value
