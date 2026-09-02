@@ -57,14 +57,14 @@ func _dismiss_tooltip () -> void:
 		close()
 
 
-## Displays the tooltip with the provided hint label and positions it near the mouse.
-func _handle_show_tooltip (hint: String) -> void:
+## Displays the tooltip with the provided data and positions it near the mouse.
+func _handle_show_tooltip (data: Variant) -> void:
 	if label.autowrap_mode != TextServer.AUTOWRAP_OFF:
 		label.custom_minimum_size = Vector2.ZERO
 		label.autowrap_mode = TextServer.AUTOWRAP_OFF
 	_is_hovering = true
 	_timer = time_to_show
-	label.text = hint
+	_write_tooltip(data)
 	target.reset_size()
 	update_minimum_size()
 	if label.size.x > MAX_TOOLTIP_WIDTH:
@@ -81,3 +81,7 @@ func _handle_hide_tooltip () -> void:
 	_timer = 0.0
 	_is_hovering = false
 	close()
+
+
+func _write_tooltip (data: Variant) -> void:
+	label.text = str(data)
