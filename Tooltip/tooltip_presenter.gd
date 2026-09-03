@@ -4,13 +4,13 @@ extends TooltipControl
 
 @export var time_to_show: float = 0.5
 @export var label: RichTextLabel
+@export var max_tooltip_width: float = 350.0
 
 var _is_hovering: bool = false
 var _timer: float = 0.0
 
 const DISMISS_DISTANCE_THRESHOLD: float = 1.4
 const CORNER_OFFSET: Vector2 = Vector2(5, 15)
-const MAX_TOOLTIP_WIDTH: float = 350.0
 
 
 ## Called when the node is ready. Connects signals for showing and hiding tooltips.
@@ -67,8 +67,8 @@ func _handle_show_tooltip (data: Variant) -> void:
 	_write_tooltip(data)
 	target.reset_size()
 	update_minimum_size()
-	if label.size.x > MAX_TOOLTIP_WIDTH:
-		label.custom_minimum_size = Vector2(MAX_TOOLTIP_WIDTH, label.size.y)
+	if label.size.x > max_tooltip_width:
+		label.custom_minimum_size = Vector2(max_tooltip_width, label.size.y)
 		label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 		target.reset_size()
 		update_minimum_size()
